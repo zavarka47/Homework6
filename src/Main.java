@@ -8,6 +8,7 @@ public class Main {
         //С помощью цикла for выведите в консоль все числа от 1 до 10
         for (int i11 = 1; i11<=10; i11=i11+1){
             System.out.println("Итерация цикла " + i11);
+
         }
 
         System.out.println("Exercise 1.2");
@@ -18,7 +19,8 @@ public class Main {
 
         System.out.println("Exercise 1.3");
         //Выведите в консоль все четные числа от 0 до 17
-        for (int i13 = 0; i13 <= 17; i13++){
+        for (int i13 = 0; i13 <= 17; i13=i13+2){
+
             System.out.println("Итерация цикла " + i13);
         }
 
